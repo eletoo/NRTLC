@@ -1,0 +1,46 @@
+\documentclass{report}
+
+\usepackage[italian]{babel}
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{quotes}
+\usepackage{hyperref}
+
+\graphicspath{{./images/}}
+
+\renewcommand{\baselinestretch}{1.2}
+
+\title{Normativa e regolamentazione delle TLC}
+\author{Elena Tonini}
+\date{2021-22}
+
+\begin{document}
+    \maketitle
+    \newpage
+
+    \begin{figure}
+        \centering
+        \includegraphics{by-nc-sa.png}
+        \label{creativecommons}
+    \end{figure}
+    \ref{creativecommons} 
+    This work is licensed under the Creative Commons Attribution - NonCommercial - ShareAlike 4.0 International License. To view a copy of this license, visit\newline
+    \href{http://creativecommons.org/licenses/by-nc-sa/4.0/.
+    }{http://creativecommons.org/licenses/by-nc-sa/4.0/.
+    }
+
+    \tableofcontents
+
+    \input{lezioni/lezione1.tex}
+    \input{lezioni/lezione2.tex}
+    \input{lezioni/lezione3.tex}
+    \input{lezioni/lezione4.tex}
+    \input{lezioni/lezione5.tex}
+    \input{lezioni/lezione6.tex}
+    
+    \input{privacy.tex}
+    \input{intelligenza artificiale.tex}
+\end{document}
